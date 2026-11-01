@@ -1,0 +1,45 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and logs
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# Sensitive credentials & environment keys
+.env
+*.pem
+*.key
+
+# Temporary media & frame extractions
+datasets/frames/
+datasets/faces/
+datasets/raw/*.avi
+datasets/raw/*.mov
+datasets/raw/*.webm
+!datasets/raw/sample_fake.mp4
+!datasets/raw/sample_real.mp4
+
+# Generated PDF/CSV analysis reports
+outputs/reports/*.pdf
+outputs/reports/*.csv
+
+# Checkpoints
+checkpoints/latest_model.pt
+
+# Legacy backup
+legacy_code_backup/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini

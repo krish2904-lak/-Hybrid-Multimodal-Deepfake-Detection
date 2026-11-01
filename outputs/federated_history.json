@@ -1,0 +1,25 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "global_accuracy": 0.5,
+      "global_loss": 0.7010682672262192,
+      "global_f1": 0.6666666666666666,
+      "client_metrics": [
+        {
+          "client_id": "Client 1 (Forensic Lab Alpha)",
+          "samples": 8,
+          "loss": 0.6253381967544556,
+          "accuracy": 0.625
+        },
+        {
+          "client_id": "Client 2 (Media Platform Beta)",
+          "samples": 8,
+          "loss": 0.710069477558136,
+          "accuracy": 0.5
+        }
+      ]
+    }
+  ],
+  "num_clients": 2
+}
