@@ -9,7 +9,8 @@ app_file: app/dashboard.py
 pinned: false
 ---
 
-# Hybrid Multimodal Federated Learning Framework for Robust Deepfake Detection under Adversarial Conditions
+# Hybrid-Multimodal-Deepfake-Detection
+## Hybrid Multimodal Federated Learning Framework for Robust Deepfake Detection under Adversarial Conditions
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 [![PyTorch 2.x](https://img.shields.io/badge/PyTorch-2.x-EE4C2C.svg?logo=pytorch)](https://pytorch.org/)
@@ -219,8 +220,8 @@ datasets/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/Deepfake_detection_using_deep_learning.git
-cd Deepfake_detection_using_deep_learning
+git clone https://github.com/krish2904-lak/-Hybrid-Multimodal-Deepfake-Detection.git
+cd -Hybrid-Multimodal-Deepfake-Detection
 ```
 
 ### 2. Create Virtual Environment
